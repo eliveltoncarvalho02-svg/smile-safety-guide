@@ -1,6 +1,17 @@
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
+
+@theme {
+  --font-sans: 'Open Sans', system-ui, sans-serif;
+  --font-display: 'Montserrat', system-ui, sans-serif;
+  --color-brand-orange: #FF8C42;
+  --color-brand-blue: #4A90E2;
+  --color-brand-beige: #F5E6D3;
+  --color-ink: #1A1A1A;
+  --color-ink-soft: #666666;
+}
 
 @custom-variant dark (&:is(.dark *));
 
@@ -62,9 +73,9 @@
 }
 
 :root {
-  --radius: 0.625rem;
+  --radius: 0.65rem;
   --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --foreground: oklch(0.18 0.01 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
