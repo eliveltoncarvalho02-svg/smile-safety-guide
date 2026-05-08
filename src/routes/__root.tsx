@@ -82,8 +82,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Lovable App" },
       { name: "twitter:description", content: "Safe Smile Guide educates patients on dental safety, error prevention, and patient rights." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c78f2694-2c81-46a9-b18f-02a3b3091d34/id-preview-a0e5836f--43cf0ced-25e7-418f-880c-367383f7abbc.lovable.app-1778261200160.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c78f2694-2c81-46a9-b18f-02a3b3091d34/id-preview-a0e5836f--43cf0ced-25e7-418f-880c-367383f7abbc.lovable.app-1778261200160.png" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9f73a064-c89d-45ea-80cc-2aaf44f9066d/id-preview-b2673f2c--43cf0ced-25e7-418f-880c-367383f7abbc.lovable.app-1778261669814.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9f73a064-c89d-45ea-80cc-2aaf44f9066d/id-preview-b2673f2c--43cf0ced-25e7-418f-880c-367383f7abbc.lovable.app-1778261669814.png" },
     ],
     links: [
       {
